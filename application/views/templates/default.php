@@ -49,8 +49,8 @@
 </div>
 
 <div class="container">
-
     <?php echo $content ?>
+    <?php echo Notify::render()?>
 </div> <!-- /container -->
 
 <!-- Le javascript
