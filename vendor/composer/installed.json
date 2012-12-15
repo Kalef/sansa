@@ -1,0 +1,157 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers",
+            "reference": "v1.0.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/composer/installers/zipball/v1.0.0",
+            "reference": "v1.0.0",
+            "shasum": ""
+        },
+        "replace": {
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev"
+        },
+        "time": "2012-09-07 21:17:33",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "http://dontkry.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "symfony",
+            "installer",
+            "zend",
+            "wordpress",
+            "cakephp",
+            "codeigniter",
+            "fuelphp",
+            "drupal",
+            "lithium",
+            "li3",
+            "joomla",
+            "laravel",
+            "phpbb",
+            "ppi",
+            "silverstripe",
+            "kohana",
+            "mako"
+        ]
+    },
+    {
+        "name": "anroots/notify",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/anroots/Notify",
+            "reference": "2.0.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/anroots/Notify/archive/2.0.1.zip",
+            "reference": "2.0.1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "composer/installers": "*"
+        },
+        "time": "2012-11-09 11:19:46",
+        "type": "kohana-module",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ricardo de Luna",
+                "email": "kaltar@kaltar.org",
+                "homepage": "http://kaltar.org",
+                "role": "Developer"
+            },
+            {
+                "name": "Ando Roots",
+                "email": "ando@sqroot.eu",
+                "homepage": "http://sqroot.eu",
+                "role": "Developer"
+            }
+        ],
+        "description": "A simple Kohana 3 module designed to capture messages from different methods and modules to be displayed later with a unified look and feel.",
+        "homepage": "https://github.com/anroots/Notify",
+        "keywords": [
+            "messaging",
+            "notify",
+            "kohana",
+            "flash message"
+        ]
+    },
+    {
+        "name": "anroots/commoneer",
+        "version": "3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git://github.com/anroots/kohana-commoneer.git",
+            "reference": "3.0.0-alpha.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/anroots/kohana-commoneer/archive/3.0.0-alpha.1.zip",
+            "reference": "3.0.0-alpha.1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "composer/installers": "*",
+            "anroots/notify": "2.*"
+        },
+        "time": "2012-11-15 12:57:43",
+        "type": "kohana-module",
+        "installation-source": "dist",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Ando Roots",
+                "email": "ando@sqroot.eu",
+                "homepage": "http://sqroot.eu",
+                "role": "Developer"
+            }
+        ],
+        "description": "Extension of the Kohana Framework, adding commonly used features for faster development.",
+        "homepage": "https://github.com/anroots/kohana-commoneer",
+        "keywords": [
+            "kohana",
+            "commoneer",
+            "kohana module"
+        ]
+    }
+]
