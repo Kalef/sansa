@@ -838,3 +838,27 @@
 #9 /var/www/sansa/system/classes/Kohana/Request.php(990): Kohana_Request_Client->execute(Object(Request))
 #10 /var/www/sansa/index.php(118): Kohana_Request->execute()
 #11 {main} in /var/www/sansa/application/views/templates/default.php:53
+2012-12-15 05:55:50 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected '>' ~ APPPATH/classes/Controller/Dashboard.php [ 7 ] in :
+2012-12-15 05:55:50 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2012-12-15 05:56:06 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected '>' ~ APPPATH/classes/Controller/Dashboard.php [ 7 ] in :
+2012-12-15 05:56:06 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2012-12-15 05:56:07 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected '>' ~ APPPATH/classes/Controller/Dashboard.php [ 7 ] in :
+2012-12-15 05:56:07 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2012-12-15 05:56:07 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected '>' ~ APPPATH/classes/Controller/Dashboard.php [ 7 ] in :
+2012-12-15 05:56:07 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2012-12-15 05:56:07 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected '>' ~ APPPATH/classes/Controller/Dashboard.php [ 7 ] in :
+2012-12-15 05:56:07 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2012-12-15 05:56:07 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected '>' ~ APPPATH/classes/Controller/Dashboard.php [ 7 ] in :
+2012-12-15 05:56:07 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2012-12-15 05:56:07 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected '>' ~ APPPATH/classes/Controller/Dashboard.php [ 7 ] in :
+2012-12-15 05:56:07 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2012-12-15 05:56:07 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected '>' ~ APPPATH/classes/Controller/Dashboard.php [ 7 ] in :
+2012-12-15 05:56:07 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
